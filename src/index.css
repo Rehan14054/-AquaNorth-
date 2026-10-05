@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --color-mountain-950: #061524;
+  --color-mountain-900: #0a2540;
+  --color-mountain-800: #103355;
+  --color-mountain-700: #1b4975;
+  --color-mountain-100: #e2e8f0;
+  --color-aqua-600: #0284c7;
+  --color-aqua-500: #0ea5e9;
+  --color-aqua-400: #38bdf8;
+  --color-aqua-100: #e0f2fe;
+  --color-aqua-50: #f0f9ff;
+}
+
+.font-display {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Glassmorphism subtle surface */
+.glass-nav {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+

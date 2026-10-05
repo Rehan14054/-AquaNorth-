@@ -1,0 +1,6 @@
+{
+  "name": "AquaNorth - Pure Mountain Water from Skardu",
+  "description": "AquaNorth is a premium natural drinking water brand originating from the majestic Karakoram mountains of Skardu, Gilgit-Baltistan, Pakistan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
